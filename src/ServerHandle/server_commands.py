@@ -13,6 +13,10 @@ def summon_zombie_at(player_name):
     command = f"execute at {player_name} run summon minecraft:zombie"
     return send_command(command)
 
+def summon_creeper(player_name):
+    command = f"execute at {player_name} run summon minecraft:creeper"
+    return send_command(command)
+
 def summon_TNT(player_name):
     command = f"execute at {player_name} run summon tnt"
     return send_command(command)
